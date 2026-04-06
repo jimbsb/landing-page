@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="customs/script.js" defer></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -124,5 +125,20 @@
         <p>&copy; 202X Brand. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
+    <div id="custom-config" class="custom-config expanded">
+        <div class="container">
+            <span class="toggle-button"></span>
+            <div class="config-content">
+                <h4>Custom Configuration</h4>
+                <section class="config-section">
+                    <h5>Main Background</h5>
+                    <input type="radio" id="bgDefault" name="background" value="default" checked>
+                    <label for="bgDefault">Default</label><br>
+                    <input type="radio" id="bgDark" name="background" value="dark">
+                    <label for="bgDark">Dark</label><br>
+                <!-- Configuration options go here -->
+            </div>
+        </div>
+    </div>
 </body>
 </html>
